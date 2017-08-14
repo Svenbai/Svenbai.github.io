@@ -15,7 +15,7 @@
 ` 以上两个属性都是把获取到的元素结构整体返回，不仅仅只是返回一个标签`
 #### 3.offsetWidth  width + border + padding
 #### 4.clientWidth  width + padding
-***##获取元素属性：
+***## 获取元素属性：
 #### 1.元素.属性名  获取不到非标准属性
 注：如果获取的是元素的class的话，在写的时候必须是className
 #### 2.["属性名"] 同上
@@ -23,7 +23,7 @@
  ` setAttribute("属性名","属性值")  设置元素属性`
 `  removeAttribute("属性名")  移除元素属性`
 #### 4.attributes能访问到元素上所有属性，返回的是一个类数组，可以通过下标的形式拿到每一个属性***
-##增删改查：#### 1.创建节点 document.createElement("标签名")
+## 增删改查：#### 1.创建节点 document.createElement("标签名")
 #### 2.appendChild() 给指定元素追加子节点
 #### 3.插入元素 insertBefore(插入的元素，参照元素)
 #### 4.removeChild() 移除子节点
